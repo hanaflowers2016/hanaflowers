@@ -301,20 +301,26 @@ const currentImage = formData.couleur === 'fuchsia'
             </button>
           </form>
         </div>
-        {/* <--- DEBUT SECTION PHOTOS REELLES ---> */}
-          <div className="bg-white/50 p-6 rounded-[3rem] border border-pink-100 shadow-sm">
+         <div className="bg-white/50 p-6 rounded-[3rem] border border-pink-100 shadow-sm mx-auto w-full max-w-lg">
             <div className="text-center mb-6">
               <h2 className="text-xl font-black text-gray-800 uppercase tracking-tighter">Photos Réelles / صور حقيقية</h2>
               <p className="text-xs text-pink-600 font-bold mt-1 italic">"Ce que vous voyez est exactement ce que vous recevrez"</p>
             </div>
+            
             <div className="grid grid-cols-2 gap-4">
               {[1, 2, 3, 4].map((num) => (
-                <div key={num} className="aspect-square rounded-3xl overflow-hidden border-4 border-white shadow-md">
-                  <img src={`/images/real-${num}.jpg`} alt={`Photo réelle ${num}`} className="w-full h-full object-cover" />
+                <div key={num} className="aspect-square rounded-3xl overflow-hidden border-4 border-white shadow-md bg-white">
+                  <img 
+                    src={`/images/real-${num}.jpg`} 
+                    alt={`Photo réelle ${num}`} 
+                    className="w-full h-full object-cover transition-transform duration-500 ease-in-out hover:scale-[2] cursor-zoom-in"
+                  />
                 </div>
               ))}
             </div>
           </div>
+
+        </div>
           {/* <--- FIN SECTION PHOTOS REELLES ---> */}
       </main>
 
