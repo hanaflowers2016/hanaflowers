@@ -301,7 +301,29 @@ const currentImage = formData.couleur === 'fuchsia'
             </button>
           </form>
         </div>
-          
+         {/* SECTION PHOTOS RÉELLES - CENTRÉE AVEC ZOOM X2 */}
+          <div className="bg-white/60 p-6 rounded-[3rem] border border-pink-100 shadow-sm">
+            <div className="text-center mb-6">
+              <h2 className="text-xl font-black text-gray-800 uppercase">Photos Réelles / صور حقيقية</h2>
+              <p className="text-xs text-pink-600 font-bold mt-1">"Ce que vous voyez est ce que vous recevrez"</p>
+            </div>
+            
+            <div className="grid grid-cols-2 gap-4 max-w-sm mx-auto">
+              <div className="aspect-square rounded-2xl overflow-hidden border-4 border-white shadow-md">
+                <img src="/images/real-1.jpg" alt="Photo 1" className="w-full h-full object-cover transition-transform duration-500 hover:scale-[2] cursor-zoom-in" />
+              </div>
+              <div className="aspect-square rounded-2xl overflow-hidden border-4 border-white shadow-md">
+                <img src="/images/real-2.jpg" alt="Photo 2" className="w-full h-full object-cover transition-transform duration-500 hover:scale-[2] cursor-zoom-in" />
+              </div>
+              <div className="aspect-square rounded-2xl overflow-hidden border-4 border-white shadow-md">
+                <img src="/images/real-3.jpg" alt="Photo 3" className="w-full h-full object-cover transition-transform duration-500 hover:scale-[2] cursor-zoom-in" />
+              </div>
+              <div className="aspect-square rounded-2xl overflow-hidden border-4 border-white shadow-md">
+                <img src="/images/real-4.jpg" alt="Photo 4" className="w-full h-full object-cover transition-transform duration-500 hover:scale-[2] cursor-zoom-in" />
+              </div>
+            </div>
+          </div>
+        </div>          
       </main>
 
       <footer className="mt-10 py-16 border-t border-pink-50 bg-white/50 backdrop-blur">
