@@ -301,7 +301,8 @@ const currentImage = formData.couleur === 'fuchsia'
             </button>
           </form>
         </div>
-         <div className="bg-white/50 p-6 rounded-[3rem] border border-pink-100 shadow-sm mx-auto w-full max-w-lg">
+           {/* SECTION PHOTOS REELLES CENTRÉE AVEC ZOOM */}
+          <div className="bg-white/50 p-6 rounded-[3rem] border border-pink-100 shadow-sm mx-auto w-full max-w-lg">
             <div className="text-center mb-6">
               <h2 className="text-xl font-black text-gray-800 uppercase tracking-tighter">Photos Réelles / صور حقيقية</h2>
               <p className="text-xs text-pink-600 font-bold mt-1 italic">"Ce que vous voyez est exactement ce que vous recevrez"</p>
@@ -321,7 +322,6 @@ const currentImage = formData.couleur === 'fuchsia'
           </div>
 
         </div>
-          {/* <--- FIN SECTION PHOTOS REELLES ---> */}
       </main>
 
       <footer className="mt-10 py-16 border-t border-pink-50 bg-white/50 backdrop-blur">
