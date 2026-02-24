@@ -302,6 +302,7 @@ const currentImage = formData.couleur === 'fuchsia'
           </form>
         </div>
            {/* SECTION PHOTOS REELLES CENTRÉE AVEC ZOOM */}
+        
           <div className="bg-white/50 p-6 rounded-[3rem] border border-pink-100 shadow-sm mx-auto w-full max-w-lg">
             <div className="text-center mb-6">
               <h2 className="text-xl font-black text-gray-800 uppercase tracking-tighter">Photos Réelles / صور حقيقية</h2>
