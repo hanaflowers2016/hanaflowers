@@ -279,7 +279,7 @@ const currentImage = formData.couleur === 'fuchsia'
                 <ShoppingBag size={20} /> Récapitulatif Final
               </h3>
               <div className="space-y-1 text-gray-700 font-medium text-sm">
-                <div className="flex justify-between"><span>Prix Hana Flowers:</span><span className="font-bold">{BASE_PRICE} DA</span></div>
+                <div className="flex justify-between"><span>Prix Promo Ramadan:</span><span className="font-bold">{BASE_PRICE} DA</span></div>
                 <div className="flex justify-between text-pink-600"><span>Livraison:</span><span className="font-bold">{formData.wilaya ? `+ ${deliveryFee} DA` : "0 DA"}</span></div>
                 <div className="pt-2 mt-2 border-t border-pink-200 flex justify-between text-2xl font-black text-[#d81b60]"><span>Total Cash:</span><span>{totalPrice} DA</span></div>
               </div>
