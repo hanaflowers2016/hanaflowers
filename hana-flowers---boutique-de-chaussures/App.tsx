@@ -19,7 +19,7 @@ import SuccessModal from './components/SuccessModal';
 import { OrderFormData } from './types';
 import { WILAYAS, COMMUNES, SIZES, getDeliveryFee } from './constants';
 
-const BASE_PRICE = 6000;
+const BASE_PRICE = 5300;
 
 const DahliaCorner = ({ position }: { position: string }) => (
   <div className={`fixed ${position} z-0 pointer-events-none opacity-40 select-none hidden md:block w-48 h-48`}>
