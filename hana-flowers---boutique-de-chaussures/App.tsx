@@ -246,11 +246,11 @@ const currentImage = formData.couleur === 'fuchsia'
             <div className="space-y-3">
               <label className="block text-sm font-bold text-gray-700 text-center uppercase tracking-widest">Choix de Livraison / خيار التوصيل *</label>
               <div className="grid grid-cols-2 gap-4">
-                <button type="button" onClick={() => setFormData(p => ({ ...p, livraison: 'domicileللمنزل' }))} className={`flex flex-col items-center gap-2 p-4 rounded-2xl border-2 transition-all ${formData.livraison === 'domicile' ? 'border-[#d81b60] bg-pink-50 text-[#d81b60]' : 'border-gray-100 opacity-60'}`}>
-                  <Truck size={24} /> <span className="font-bold text-xs">À Domicile</span>
+                <button type="button" onClick={() => setFormData(p => ({ ...p, livraison: 'domicile' }))} className={`flex flex-col items-center gap-2 p-4 rounded-2xl border-2 transition-all ${formData.livraison === 'domicile' ? 'border-[#d81b60] bg-pink-50 text-[#d81b60]' : 'border-gray-100 opacity-60'}`}>
+                  <Truck size={24} /> <span className="font-bold text-xs">À Domicileللمنزل</span>
                 </button>
-                <button type="button" onClick={() => setFormData(p => ({ ...p, livraison: 'agenceللمكتب' }))} className={`flex flex-col items-center gap-2 p-4 rounded-2xl border-2 transition-all ${formData.livraison === 'agence' ? 'border-[#d81b60] bg-pink-50 text-[#d81b60]' : 'border-gray-100 opacity-60'}`}>
-                  <Building size={24} /> <span className="font-bold text-xs">À l'agence</span>
+                <button type="button" onClick={() => setFormData(p => ({ ...p, livraison: 'agence' }))} className={`flex flex-col items-center gap-2 p-4 rounded-2xl border-2 transition-all ${formData.livraison === 'agence' ? 'border-[#d81b60] bg-pink-50 text-[#d81b60]' : 'border-gray-100 opacity-60'}`}>
+                  <Building size={24} /> <span className="font-bold text-xs">À l'agenceللمكتب</span>
                 </button>
               </div>
             </div>
