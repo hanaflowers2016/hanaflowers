@@ -145,7 +145,7 @@ const currentImage = formData.couleur === 'fuchsia'
               alt="Hana Flowers Product"
             />
             <div className="absolute top-6 left-6 bg-[#d81b60] text-white px-5 py-2 rounded-full font-black shadow-lg animate-pulse tracking-tighter">
-              STOCK LIMITÉ
+              PROMO RAMADAN
             </div>
           </div>
           <div className="p-6 bg-white/60 backdrop-blur rounded-3xl border border-pink-100 shadow-sm text-center">
@@ -311,7 +311,7 @@ const currentImage = formData.couleur === 'fuchsia'
             <button onClick={() => openSocial('instagram')} className="p-3 bg-white rounded-full shadow-sm text-pink-600 hover:scale-110 transition-transform"><Instagram size={24} /></button>
             <button onClick={() => openSocial('whatsapp')} className="p-3 bg-white rounded-full shadow-sm text-green-500 hover:scale-110 transition-transform"><MessageCircle size={24} /></button>
           </div>
-          <p className="mt-8 text-gray-400 text-[10px] tracking-widest font-bold">© 2024 HANA FLOWERS ALGÉRIE - TOUS DROITS RÉSERVÉS</p>
+          <p className="mt-8 text-gray-400 text-[10px] tracking-widest font-bold">© 2026 HANA FLOWERS ALGÉRIE - TOUS DROITS RÉSERVÉS</p>
         </div>
       </footer>
 
